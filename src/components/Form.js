@@ -4,7 +4,7 @@ export default function Form({ onAddTask }) {
   const [description, setDescription] = useState("");
 
   const handleSubmit = (e) => {
-    // TODO: write code to handle form submission
+
     e.preventDefault();
     if (description.trim()) {
       onAddTask(description);
@@ -13,7 +13,7 @@ export default function Form({ onAddTask }) {
   };
 
   return (
-    /*TODO: add a form to add a new task*/
+
     <form onSubmit={handleSubmit}>
       <input
         type="text"
