@@ -1,5 +1,6 @@
 
 import React from "react";
+/* TODO: implement the Task component */
 export default function Task({ task, onToggleTask, onDeleteTask }) {
   return (
     <li>
